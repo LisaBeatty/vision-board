@@ -1,0 +1,59 @@
+/****BASE STYLES****/
+body{
+  background: #E8E8E8;
+  font-size: 20px;
+}
+
+/******GRID******/
+#vision-board{
+  height: 850px;
+  width:1200px;
+  overflow: auto;
+  background: url('../img/background.png');
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+.block{
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+.large-block{
+  height: 430px;
+  padding: 70px 40px;
+}
+.small-block{
+  height: 210px;
+  padding: 20px 40px;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.light-bg{
+  background: #FFFFFF;
+}
+.dark-bg{
+  background: #3B3B3B;
+}
+.title h2{
+  color: #FFFFFF;
+  font-size: 30px;
+}
+.title span{
+  font-family: 'Permanent marker', cursive;
+  font-weight: normal;
+}
+.block strong{
+  font-size: 38px;
+  text-transform: none;
+}
+.highlight {
+  background: #FFF44F;
+  padding: 5px 15px;
+}
